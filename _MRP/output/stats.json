@@ -1,0 +1,11 @@
+{
+    "total_runtime": 329.8849411010742,
+    "num_documents": 0,
+    "update_documents": 0,
+    "input_load_time": 0,
+    "workflows": {
+        "create_community_reports": {
+            "overall": 329.8806109428406
+        }
+    }
+}

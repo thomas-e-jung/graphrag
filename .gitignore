@@ -56,3 +56,11 @@ docsite/
 
 # Jupyter notebook
 .ipynb_checkpoints/
+
+# Experiment Output
+cache/
+archive/
+_testrun/
+_MRP_test/
+logs/
+backup/

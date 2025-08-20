@@ -65,7 +65,7 @@ def create_communities(
         graph,
         max_cluster_size,
         use_lcc,
-        seed=seed,
+        seed=seed
     )
 
     communities = pd.DataFrame(

@@ -89,6 +89,8 @@ tqdm = "^4.67.1"
 
 textblob = "^0.18.0.post0"
 spacy = "^3.8.4"
+scikit-learn = "^1.7.1"
+node2vec = "^0.5.0"
 
 [tool.poetry.group.dev.dependencies]
 coverage = "^7.6.9"
@@ -109,6 +111,9 @@ mkdocs-jupyter = "^0.25.1"
 mkdocs-exclude-search = "^0.6.6"
 pytest-dotenv = "^0.5.2"
 mkdocs-typer = "^0.0.3"
+
+[tool.dotenv]
+location = "./_MRP/.env"
 
 [build-system]
 requires = ["poetry-core>=1.0.0", "poetry-dynamic-versioning>=1.0.0,<2.0.0"]
